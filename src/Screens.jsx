@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-import LandingPage from "../screens/LandingPage";
+import LandingPage from "./screens/LandingPage";
 import DashBoardScreen from "./screens/DashBoardScreen";
 import OtpScreen from "./screens/OtpScreen";
 
