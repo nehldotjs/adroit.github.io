@@ -1,0 +1,145 @@
+.landingPageWrapper {
+    display: flex;
+    background-color: #00C795;
+    height: 100vh;
+}
+
+.androitIntroSection {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10%;
+}
+
+.androidIntro-container {
+    background-color: #00C795;
+    width: auto;
+    color: #fff;
+    font-family: poppins;
+    /* margin: auto; */
+}
+
+.androidIntro-container h1 {
+    margin-bottom: 20px;
+}
+
+.androidIntro-container p {
+    font-size: 15px;
+    text-align: justify;
+}
+
+.loginSection {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10%;
+    flex-direction: column;
+    position: relative;
+}
+
+.login-container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: auto;
+    height: 100%;width: 100%;
+
+}
+
+.loginContainer2 {
+    width: 100%;
+    height: 100%;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo h3 {
+    font-size: 30px;
+    margin: auto;
+    display: flex;
+    font-weight: bold;
+    font-family: roboto;
+    color: #007970;
+}
+
+.formContainer {
+    width: inherit;
+    display: flex;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+form .inputContainer {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+form .inputContainer input {
+    padding: 10px;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    border: none;
+    outline: none;
+    box-shadow: 2px 2px 5px lightgray;
+}
+
+form input::placeholder {
+    font-family: poppins;
+    font-size: 10px;
+    color: rgb(192, 192, 192);
+}
+
+.link {
+    display: flex;
+    background-color: #00C795;
+    width: 100%;
+    height: 30px;
+    padding: 0px 10px;
+    align-items: center;
+    justify-content: center;
+    font-weight: lighter;
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 15px;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 350ms all ease-in-out;
+}
+
+.link:hover {
+    background-color: #007970;
+}
+
+.footerTradeMark{
+    display: flex;color: darkgray;
+    font-family: poppins;
+    font-size: 10px;
+    bottom: 20px;
+    position: absolute;
+}

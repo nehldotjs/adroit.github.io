@@ -1,0 +1,609 @@
+.dashBoardMainWrapper {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.dashBoardNavContainer {
+    z-index: 2;
+    flex: .3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-right: 1px solid lightgray;
+    box-shadow: 5px 0px 5px rgba(27, 27, 27, 0.437);
+}
+
+.logoWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.logoWrapper h3 {
+    font-size: 25px;
+    font-family: roboto;
+    justify-content: center;
+    align-items: center;
+    color: #135D54;
+
+}
+
+.dashLinks {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.dashLinks div {
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashLinks div .navButtons {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: none;
+    transition: 150ms all ease;
+    cursor: pointer;
+    background-color: transparent;
+    position: relative;
+    flex-direction: column;
+}
+
+.dashLinks div .navButtons .activebtn {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    background-color: transparent;
+}
+
+.dashLinks div .activebtn::before {
+    content: "";
+    height: 100%;
+    width: 10px;
+    left: 0;
+    position: absolute;
+    background-color: #00C795;
+}
+
+.dashLinks div .activebtn::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    background-color: #d0faf0;
+    mix-blend-mode: multiply;
+}
+
+.navButtons .buttonIcon {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.navButtons .buttonIcon .dashFaIcons {
+    color: #00C795;
+    font-size: 15px;
+    display: flex;
+    width: 50px;
+    height: 100%;
+}
+
+.navButtons .buttonIcon .dashFaIcons .dashIcons {
+    display: flex;
+    margin: auto;
+}
+
+.navButtons .buttonIcon .dashBtnTag {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 10px;
+    font-family: poppins;
+    text-transform: capitalize;
+}
+
+.navButtons .buttonIcon .dashBtnDropDownIcon {
+    display: flex;
+    width: 40px;
+    height: 100%;
+}
+
+.navButtons .buttonIcon .dashArrowIcons {
+    transition: 350ms all ease;
+    font-size: 15px;
+    color: #135D54;
+}
+
+.navButtons .buttonIcon .angleRotate {
+    rotate: 90deg;
+}
+
+.dropDownSubBtnsLink {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    font-family: poppins;
+    text-decoration: none;
+}
+
+.dropDownSubBtnsLink a {
+    transition: 150ms all ease;
+    padding: 10px 0px;
+    display: flex;
+    font-family: roboto;
+    font-size: 12px;
+    text-decoration: none;
+    color: #2b2b2b;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.dropDownSubBtnsLink a:hover {
+    background-color: #00C795;
+    color: #135D54;
+
+}
+
+/* DASH BOARD HEADER CONTAINER  */
+.dashBoardContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.dashHeaderWrapper {
+    display: flex;
+    padding: 5px;
+    padding-right: 5%;
+    background-color: #135D54;
+    justify-content: flex-end;
+
+}
+
+.dashHeader {
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+.dashHeader .notification {
+    border: 1px solid #fff;
+    width: 50px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-top: none;
+    border-bottom: none;
+}
+
+
+.dashHeader .notification .notificationIconWrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.dashHeader .notification .dashHeaderNotificationIcon {
+    font-size: 25px;
+    color: #fff;
+    display: flex;
+    position: relative;
+}
+
+.dashHeader .notification .notificationIconWrapper .spanNotification {
+    display: flex;
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 2px solid #135D54;
+    background-color: red;
+    transform: translateX(12px);
+}
+
+
+.dashHeader .userDetails {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: poppins;
+    font-size: 12px;
+}
+
+.dashHeader .userDetails-name .userEmail {
+    display: flex;
+    font-size: 12px;
+    display: flex;
+}
+
+.userProfileImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+
+}
+
+.userProfileImage img {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* DASH BOARD CONTENT CONTAINER */
+
+.dashContentWrapper {
+    height: 90%;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    padding: 10px 0px;
+}
+
+.dashContent-1 {
+    background-color: red;
+    display: grid;
+    flex: 1;
+    height: 100%;
+    display: flex;
+    grid-template-rows: 1fr 2fr;
+    gap: 20px;
+    flex-direction: column;
+
+}
+
+.welcomBoard-wrapper {
+    background-color: #00C795;
+    border-radius: 10px;
+    display: flex;
+    flex: 1;
+    padding: 20px;
+}
+
+.welcomeBoard {
+    border-radius: 5px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.welcomeBoard .welcomeTextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1;
+}
+
+.welcomeBoard .welcomeTextContainer .welcomeText {
+    font-family: poppins;
+    font-size: 20px;
+    color: #fff;
+}
+
+.welcomeBoard .welcomeTextContainer p {
+    font-family: poppins;
+    font-size: 10px;
+    color: #fff;
+}
+
+.welcomeBoard .welcomeSvg {
+    height: 100%;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* background-color: aqua; */
+}
+
+.welcomeBoard .welcomeSvg img {
+    height: 150px;
+    width: auto;
+    object-fit: contain;
+    display: block;
+}
+
+/* DASH BOARD APPLICATION SECTION */
+.dashContentWrapper .dashApplication {
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 20px lightgrey;
+}
+
+.dashContentWrapper .dashApplication .applicationBtnContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+
+}
+
+.dashContentWrapper .dashApplication .applicationBtnContainer {
+
+    display: grid;
+    gap: 10px;
+    justify-content: flex-start;
+    grid-template-columns: 1fr 1fr;
+}
+
+.dashContentWrapper .dashApplication .applicationBtnContainer h1 {
+    font-size: 12px;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    display: flex;
+    font-family: poppins;
+}
+
+.dashContentWrapper .dashApplication .applicationBtnContainer h1 span {
+    width: 100%;
+    text-align: end;
+    color: #00C795;
+}
+
+.dashContentWrapper .dashApplication .applicationBtnContainer h1 span button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #00C795;
+    font-weight: bold;
+    transition: 350ms all ease;
+    font-family: poppins;
+}
+
+.dashContentWrapper .dashApplication .applicationBtnContainer h1 span button:hover {
+    background-color: #aec5bf;
+    color: #fff;
+}
+
+/* APPLICATIONS CARDS */
+
+.applicationCards {
+    display: flex;
+    height: auto;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.applicationCards .applicationCard {
+    justify-content: space-between;
+    background-color: #8bffe2;
+    flex-direction: column;
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    height: auto;
+    width: auto;
+}
+
+.applicationCards .applicationCard .cardIcon {
+    height: auto;
+    width: auto;
+    display: flex;
+    gap: 20px;
+}
+
+.applicationCards .applicationCard .cardIcon .dashIcons {
+    color: #135D54;
+    display: flex;
+    font-size: 20px;
+}
+
+.applicationCards .applicationCard {
+    gap: 10px;
+
+    display: flex;
+
+}
+
+.applicationCards .applicationCard .cardName {
+    color: #135D54;
+    font-family: poppins;
+    font-size: 10px;
+    display: flex;
+
+}
+
+.applicationCards .applicationCard .cardDate {
+    color: #135D54;
+    font-family: poppins;
+    font-size: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.applicationCards .applicationCard .cardDate span {
+    display: flex;
+    background-color: #135D54;
+    color: #fff;
+    padding: 3px 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/*DASH BOARD - PROFILE CALENDER HELPCENTER SECTION */
+
+
+.dashContent-2 {
+    height: 100%;
+    width: auto;
+    display: grid;
+    flex: .5;
+    grid-template-rows: 1fr;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+}
+
+/* USER PROFILE */
+.userProfile {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px #9a9a9a;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashContent-2 .profileCard {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.dashContent-2 .profileCard img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin: auto;
+
+}
+
+/* CALENDAR */
+.calender {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px lightgray;
+    margin: auto;
+
+}
+
+.calendar-container{
+    height: 200px;
+    width: 500px;
+    display: flex;
+    position: relative;
+    padding: 0px;
+    background-color: pink;
+}
+
+
+/* HELP CARD */
+.helpCenter {
+    display: FLEX;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    gap: 10px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.helpCenter .svgHelpIcon {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 5px;
+}
+
+.helpCenter .svgHelpIcon img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+    object-fit: contain;
+    margin: auto;
+}
+
+.helpCenter h3 {
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
+    font-family: poppins;
+}
+
+.helpCenter p {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+.helpCenter .contactUsbtn {
+    border: none;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #135D54;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+transition: 350ms all ese;
+}
+.helpCenter .contactUsbtn:hover{
+    background-color: #00C795;
+    color: white;
+}

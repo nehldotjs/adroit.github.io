@@ -1,0 +1,167 @@
+.otpSection {
+    display: flex;
+    flex: 1;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.otpContainer {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: .5;
+    height: 100%;
+}
+
+.otp-logoContainer {
+    margin-bottom: 5%;
+}
+
+.otp-logoContainer h3 {
+    font-size: 30px;
+    font-family: roboto;
+    color: #135D54;
+}
+
+.verificationSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 15% 10%;
+    box-shadow: 0px 0px 20px rgb(202, 202, 202);
+}
+
+.authContainer {
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.lockIconContainer {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: auto;
+    display: flex;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    background-color: aquamarine;
+}
+
+.fa-icons {
+    display: flex;
+    height: 30px;
+    width: auto;
+    margin: auto;
+    color: #135D54;
+}
+
+.authContainer h1 {
+    font-size: 30px;
+    font-family: poppins;
+    color: #135D54;
+}
+
+.authContainer p {
+    font-size: 12px;
+    font-family: poppins;
+    color: lightgray;
+    display: flex;
+    margin: "auto";
+    text-align: center;
+}
+
+.inputVerificationContainer {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+
+
+}
+
+.inputVerificationContainer input {
+    flex: 1;
+    display: flex;
+    height: 100%;
+    padding-left: 15px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+}
+
+.inputVerificationContainer input[type='number']::-webkit-inner-spin-button {
+    display: none;
+}
+
+.inputVerificationContainer input[type='number']::-webkit-outer-spin-button {
+    display: none;
+}
+
+.inputVerificationContainer input[type=number] {
+    -moz-appearance: textified;
+}
+
+.inputVerificationContainer input::placeholder {
+    color: lightgray;
+}
+
+.inputVerificationContainer .verificationTimerContainer {
+    padding: 10px;
+}
+
+.inputVerificationContainer .verificationTimerContainer p {
+    color: #00C795;
+    font-weight: bold;
+}
+
+.verificationBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    background-color: #00C795;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: poppins;
+    transition: 350ms all ease;
+}
+
+.verificationBtn:hover {
+    background-color: #135D54;
+}
+
+.resetVerificationButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    background-color: #1e7067;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: poppins;
+    transition: 350ms all ease;
+}
+
+.resetVerificationButton:hover {
+    background-color: #0f4d45;
+}
