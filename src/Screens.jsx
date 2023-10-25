@@ -10,7 +10,7 @@ function Screens() {
     <>
       <Router>
         <Routes>
-          <Route path="/adroit/" element={<LandingPage />} />
+          <Route path="/adroit" element={<LandingPage />} />
           <Route path="/otpScreen" element={<OtpScreen />} />
           <Route path="/dashboardScreen" element={<DashBoardScreen />} />
         </Routes>
