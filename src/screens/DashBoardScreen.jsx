@@ -225,9 +225,9 @@ function DashBoardScreen() {
                 </div>
                 <div className="userNameWrapper">
                   <h3>Adekunle Adebona</h3>
+                  <p>UI/UX Designer</p>
                 </div>
                 <div className="userProfession">
-                  <p>UI/UX Designer</p>
                 </div>
               </div>
 
