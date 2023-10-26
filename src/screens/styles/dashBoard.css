@@ -621,11 +621,12 @@
 .helpCenter .contactUsbtn {
     border: none;
     padding: 5px 10px;
-    font-size: 12px;
+    font-size: 8px;
     justify-content: center;
     align-items: center;
     background-color: #135D54;
     color: #fff;
+    color: red;
     border-radius: 10px;
     cursor: pointer;
     transition: 350ms all ese;
