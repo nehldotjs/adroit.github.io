@@ -37,7 +37,7 @@ function LandingPage() {
             </div>
           </div>
           <div className="footerTradeMark">
-            <p> &copy;2023 CreditWave Finance Limited | All Right Reserved</p>{" "}
+            <p> &copy;2023 CreditWave Finance Limited | All Right Reserved</p>
           </div>
         </div>
       </div>
