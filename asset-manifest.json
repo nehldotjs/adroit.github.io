@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/adroit.github.io/static/css/main.566106f3.css",
+    "main.js": "/adroit.github.io/static/js/main.dc044619.js",
+    "static/media/undraw_working_remotely_re_6b3a.svg": "/adroit.github.io/static/media/undraw_working_remotely_re_6b3a.9f91ff01a4d9f0a934b09c2ced5f40f0.svg",
+    "static/media/undraw_all_the_data_re_hh4w.svg": "/adroit.github.io/static/media/undraw_all_the_data_re_hh4w.11ca2c4a15f6becbd1b3d22ad327bb05.svg",
+    "index.html": "/adroit.github.io/index.html",
+    "main.566106f3.css.map": "/adroit.github.io/static/css/main.566106f3.css.map",
+    "main.dc044619.js.map": "/adroit.github.io/static/js/main.dc044619.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.566106f3.css",
+    "static/js/main.dc044619.js"
+  ]
+}
