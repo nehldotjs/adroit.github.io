@@ -7,15 +7,13 @@ import OtpScreen from "./screens/OtpScreen";
 
 function Screens() {
   return (
-    <>
-      <Router>
-        <Routes>
-          <Route path="/adroit" element={<LandingPage />} />
-          <Route path="/otpScreen" element={<OtpScreen />} />
-          <Route path="/dashboardScreen" element={<DashBoardScreen />} />
-        </Routes>
-      </Router>
-    </>
+    <Router>
+      <Routes>
+        <Route path="/adroit/" element={<LandingPage />} />
+        <Route path="/otpScreen" element={<OtpScreen />} />
+        <Route path="/dashboardScreen" element={<DashBoardScreen />} />
+      </Routes>
+    </Router>
   );
 }
 

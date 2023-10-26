@@ -2,17 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./styles/landingPage.css";
 function LandingPage() {
-  const handleSubmit = () => {
-    console.log("hello world");
-  };
   return (
-    <>
-      {/* <div>
-        <h1>LANDING PAGE</h1>
-        <Link to="/otpScreen">OTP SCREEN</Link>
-      </div> */}
-      {/* SCREEN DESIGN STARS HERE */}
-
       <div className="landingPageWrapper">
         <div className="androitIntroSection">
           <div className="androidIntro-container">
@@ -51,7 +41,6 @@ function LandingPage() {
           </div>
         </div>
       </div>
-    </>
   );
 }
 
